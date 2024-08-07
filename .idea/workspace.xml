@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68864bd9-ac1f-42d6-8704-b4aa01b5e650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Scooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ScooterOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScooterOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScooterOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,32 +38,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.CalculatorTest.executor": "Run",
-    "JUnit.PraktikumTest.checkEmailInHeader.executor": "Run",
-    "JUnit.PraktikumTest.executor": "Run",
-    "JUnit.Scooter.checkFAQ.executor": "Run",
-    "JUnit.Scooter.executor": "Run",
-    "JUnit.ScooterOrder.SuccessOrder.executor": "Run",
-    "JUnit.ScooterOrder.checkScooterOrder.executor": "Run",
-    "JUnit.ScooterOrder.executor": "Run",
-    "JUnit.param.executor": "Run",
-    "JUnit.param.shouldBeSum.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lesya/0/dev/Sprint_4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PraktikumTest.checkEmailInHeader.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PraktikumTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Scooter.checkFAQ.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Scooter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScooterOrder.SuccessOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScooterOrder.checkScooterOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScooterOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.param.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.param.shouldBeSum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lesya/0/dev/Sprint_4&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ScooterOrder">
+}</component>
+  <component name="RunManager" selected="JUnit.Scooter">
     <configuration name="Scooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wd" />
+      <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Scooter" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Scooter" />
         <item itemvalue="JUnit.ScooterOrder" />
         <item itemvalue="JUnit.ScooterOrder.SuccessOrder" />
         <item itemvalue="JUnit.ScooterOrder.checkScooterOrder" />
-        <item itemvalue="JUnit.Scooter" />
         <item itemvalue="JUnit.Scooter.checkFAQ" />
       </list>
     </recent_temporary>

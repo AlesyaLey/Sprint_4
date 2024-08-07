@@ -18,36 +18,23 @@
             <version>4.22.0</version>
         </dependency>
 
-
           <dependency>
              <groupId>io.github.bonigarcia</groupId>
              <artifactId>webdrivermanager</artifactId>
              <version>5.9.1</version>
          </dependency>
 
-       <!-- <dependency>
-             <groupId>org.seleniumhq.selenium</groupId>
-             <artifactId>selenium</artifactId>
-             <version>2.0rc2</version>
-             <type>pom</type>
-         </dependency>
-         -->
-
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.22.0</version>
         </dependency>
 
-
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>4.22.0</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.seleniumhq.webdriver</groupId>
@@ -68,37 +55,12 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
-        </dependency><!--
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>org.seleniumhq.selenium</artifactId>
-            <version>4.22.0</version>
-            <scope>system</scope>
-            <systemPath>/home/alex/0/Projects/Java/wd/lib/selenium-java-4.22.0.jar</systemPath>
-        </dependency> --><!--
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.22.0</version>
-            <scope>system</scope>
-            <systemPath>/home/alex/0/Projects/Java/wd/lib/selenium-chrome-driver-4.22.0.jar</systemPath>
         </dependency>
+
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-firefox-driver</artifactId>
-            <version>4.22.0</version>
-            <scope>system</scope>
-            <systemPath>/home/alex/0/Projects/Java/wd/lib/selenium-firefox-driver-4.22.0.jar</systemPath>
-        </dependency> -->
-
-<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>2.12.4</version>
-</dependency>
-
-
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>2.12.4</version>
+        </dependency>
     </dependencies>
-
 </project>

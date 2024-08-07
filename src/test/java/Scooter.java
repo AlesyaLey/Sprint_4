@@ -1,19 +1,18 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
+import java.time.Duration;
+
 import org.junit.After;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.JavascriptExecutor;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import static org.junit.Assert.*;
-import java.awt.*;
-import java.time.Duration;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 @RunWith(Parameterized.class)
 public class Scooter {
@@ -112,49 +111,4 @@ public class Scooter {
                 return text;
             }
 
-            /*public String checkFAQ(int numberRow)
-            {
-                clickOpenListButton(numberRow);
-                checkListAnswer(numberRow);
-            }*/
-
-           /* switch (numberRow) {
-                case (1):
-                   driver.findElement(By.id("accordion__heading-0")).click();
-                   return text = driver.findElement(By.xpath(".//div[@id='accordion__panel-0']")).getText();
-
-                case (2):
-                   driver.findElements(By.id("accordion__heading-1"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-1']")).getText();
-                    break;
-               case (3):
-                    driver.findElements(By.id("accordion__heading-2"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-2']")).getText();
-                   break;
-               case (4):
-                    driver.findElements(By.id("accordion__heading-3"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-3']")).getText();
-                   break;
-               case (5):
-                    driver.findElements(By.id("accordion__heading-4"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-4']")).getText();
-                   break;
-                case (6):
-                    driver.findElements(By.id("accordion__heading-5"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-5']")).getText();
-                    break;
-                case (7):
-                    driver.findElements(By.id("accordion__heading-6"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-6']")).getText();
-                    break;
-                case (8):
-                    driver.findElements(By.id("accordion__heading-7"));
-                     text = driver.findElement(By.xpath(".//div[@id='accordion__panel-7']")).getText();
-                    break;
-               default:
-                    text = "Error";
-            }
-            return text;
-
-        }*/
     }

@@ -34,9 +34,6 @@ public class ScooterOrder {
         this.inputNameField = inputNameField;
         this.expected = expected;
     }
-    //public ScooterOrder (String button) {
-       // this.button=button;
-   // }
 
    @Parameterized.Parameters
    public static Object[][] getAnswerScooterOrder() { // это метод, который возвращает массив [][]
@@ -63,7 +60,6 @@ public class ScooterOrder {
         ChromeOptions options = new ChromeOptions();
         // options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
         driver = new ChromeDriver();
-        //driver.get("https://qa-scooter.praktikum-services.ru/order");
         //страница главная
         driver.get("https://qa-scooter.praktikum-services.ru/");
         //кнопка Заказать вверху
@@ -86,12 +82,9 @@ public class ScooterOrder {
         ChromeOptions options = new ChromeOptions();
         // options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
         driver = new ChromeDriver();
-        //driver.get("https://qa-scooter.praktikum-services.ru/order");
-       //главная страница
+        //главная страница
         driver.get("https://qa-scooter.praktikum-services.ru/");
-
-        //driver.findElement(By.className("Button_Button__ra12g")).click();
-       //спуститься вниз до кнопки Заказа
+        //спуститься вниз до кнопки Заказа
        JavascriptExecutor js = (JavascriptExecutor) driver;
        js.executeScript("window.scrollBy(0,2500)");
        //кликнуть по кнопке заказа внизу
@@ -128,13 +121,6 @@ class SuccessOrder {
     public SuccessOrder() {
         String placeholder;
         String val;
-
-      /* Field[] fields = new Field[]{
-                new Field("* Имя", "dnntdn"),
-                new Field("* Фамилия", "ddddnntdn")
-        };
-
-       for(int i=0; i<fields.length; i++) System.out.println(fields[i].placeholder);*/
     }
 }
 
@@ -145,9 +131,6 @@ class OrderScooterForm {//поиск поля на форме и заполне�
     private By nameField;//наименование поля
     private String xpath_sstr;//путь для поля
     private By nextActionButton = By.className("Button_Middle__1CSJM");//кнопка заказа
-   // String inputVal;
-   // String inputNameField;
-
     public OrderScooterForm(WebDriver driver){this.driver = driver;}
 
     public void OrderFormMenu(String inputVal, String inputNameField){//заполнение поля
@@ -160,9 +143,7 @@ class OrderScooterForm {//поиск поля на форме и заполне�
             WebElement el = driver.findElement(nameField);
 
            String cn = el.getAttribute("class");
-            //System.out.println(cn);
-            //System.out.println(el.getAttribute("innerHTML"));
-        //отбираем поля с выпадающим списком
+           //отбираем поля с выпадающим списком
             if(cn.equals("select-search__input")){
                 if(inputNameField==""){takeOrder();}else{
 

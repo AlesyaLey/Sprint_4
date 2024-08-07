@@ -73,22 +73,10 @@ public class PraktikumTest {
     @Test
     public void checkEmailInHeader() {
         // создали драйвер для браузера Chrome
-         //System.setProperty("webDriver.chrome.driver","/home/lesya/0/dev/chromedriver/chromedriver-linux64/chromedriver");
-        //ChromeOptions options = new ChromeOptions();
-              //  options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
-
-             // ChromeDriver  driver = new ChromeDriver();
              WebDriverManager.chromedriver().setup();
              driver = new ChromeDriver();
         // перешли на страницу тестового приложения
-       /*  ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless");
-                chromeOptions.addArguments("--no-sandbox");*/
-
-
-       // driver = new ChromeDriver();
-               // System.setProperty("webDriver.chrome.driver","/home/lesya/0/dev/UnitProject/src/main/resources/chromedriver");
-                driver.get("https://qa-mesto.praktikum-services.ru/");
+            driver.get("https://qa-mesto.praktikum-services.ru/");
 
         // создай объект класса страницы авторизации
         LoginPageMesto logIn = new LoginPageMesto(driver);
@@ -97,14 +85,12 @@ public class PraktikumTest {
           String password = "q1w2e3r4";
           // передавай эти переменные внутрь метода
          logIn.login(email,password);
-
         // создай объект класса заголовка приложения
         HeaderPageMesto page = new HeaderPageMesto(driver);
         // дождись загрузки заголовка
         page.waitForLoadHeader();
         // получи текст элемента в заголовке
         String namePage = page.emailInHeader();
-        //System.out.println(namePage);
         // сделай проверку, что полученное значение совпадает с email
         assertEquals("jibjhfgbkjgfhb jhb",email,namePage);
     }
