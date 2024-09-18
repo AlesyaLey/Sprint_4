@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 import java.time.Duration;
 
 
-// Класс страницы авторизации
+// Класс страницы авторизации(просто проверка, что можно зайтит на страницу)
 class LoginPageMesto {
 
     private WebDriver driver;
@@ -92,7 +92,7 @@ public class PraktikumTest {
         // получи текст элемента в заголовке
         String namePage = page.emailInHeader();
         // сделай проверку, что полученное значение совпадает с email
-        assertEquals("jibjhfgbkjgfhb jhb",email,namePage);
+        assertEquals("Проверка :)",email,namePage);
     }
     @After
     public void tearDown() {
