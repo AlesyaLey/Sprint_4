@@ -4,10 +4,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,12 +13,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TrueOrderScooter{
     private WebDriver driver;
-    //переменная для значения в поле
-    private String inputVal;
-    //ожидаемый результат
-    private String expected;
-    //переменная для названия поля
-    private String inputNameField;
+    //переменная для получаемого результата, для сравнения
     boolean actual;
 
     @Test
@@ -38,8 +29,8 @@ public class TrueOrderScooter{
         new WebDriverWait(driver, Duration.ofSeconds(15))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.className("Button_Middle__1CSJM")));//подождать загрузки страницы заказа
 
-        OrderScooterForm order = new OrderScooterForm(driver);
-        OrderScooterForm1 order1 = new OrderScooterForm1(driver);
+        FirstPageOfOrderScooterForm order = new FirstPageOfOrderScooterForm(driver);
+        SecondPageOfOrderScooterForm order1 = new SecondPageOfOrderScooterForm(driver);
         order.OrderFormMenu("* Имя", "Имя");
         order.OrderFormMenu("* Фамилия", "Фамилия");
         order.OrderFormMenu("* Адрес: куда привезти заказ", "Адрес");
@@ -79,8 +70,8 @@ public class TrueOrderScooter{
         new WebDriverWait(driver, Duration.ofSeconds(15))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.className("Button_Middle__1CSJM")));//подождать загрузки страницы заказа
 
-        OrderScooterForm order = new OrderScooterForm(driver);
-        OrderScooterForm1 order1 = new OrderScooterForm1(driver);
+        FirstPageOfOrderScooterForm order = new FirstPageOfOrderScooterForm(driver);
+        SecondPageOfOrderScooterForm order1 = new SecondPageOfOrderScooterForm(driver);
         order.OrderFormMenu("* Имя", "Имя");
         order.OrderFormMenu("* Фамилия","Фамилия");
         order.OrderFormMenu("* Адрес: куда привезти заказ","Адрес");

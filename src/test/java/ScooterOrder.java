@@ -6,7 +6,6 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,9 +22,8 @@ public class ScooterOrder {
     private String inputVal;
     //ожидаемый результат
     private String expected;
-    //private String buttonOrder;
     //переменная для названия поля
-    private String inputNameField; //private SuccessOrder ;
+    private String inputNameField;
 
     public ScooterOrder (String inputVal,String inputNameField, String expected) {
         this.inputVal = inputVal;
@@ -54,17 +52,15 @@ public class ScooterOrder {
     public void SuccessOrder(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        // options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
         driver = new ChromeDriver();
         //страница главная
         driver.get("https://qa-scooter.praktikum-services.ru/");
         //кнопка Заказать вверху
         driver.findElement(By.className("Button_Button__ra12g")).click();//Кнопка Заказать верхняя
-        //driver.findElement(By.className("Button_Button__ra12g Button_Middle__1CSJM")).click();
         new WebDriverWait(driver, Duration.ofSeconds(15))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.className("Order_Header__BZXOb")));//ожидаем заголовка Для кого самокат
 
-        OrderScooterForm order = new OrderScooterForm(driver);
+        FirstPageOfOrderScooterForm order = new FirstPageOfOrderScooterForm(driver);
         order.OrderFormMenu(inputVal, inputNameField);
         order.takeOrder();
         String actual = order.OrderPageAnswer();
@@ -88,7 +84,7 @@ public class ScooterOrder {
        new WebDriverWait(driver, Duration.ofSeconds(15))
                .until(ExpectedConditions.visibilityOfElementLocated(By.className("Button_Middle__1CSJM")));//подождать загрузки страницы заказа
 
-        OrderScooterForm order = new OrderScooterForm(driver);
+        FirstPageOfOrderScooterForm order = new FirstPageOfOrderScooterForm(driver);
         order.OrderFormMenu(inputVal, inputNameField);
         order.takeOrder();
         String actual = order.OrderPageAnswer();

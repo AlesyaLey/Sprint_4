@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class OrderScooterForm {//поиск поля на форме и заполнение полей
+public class FirstPageOfOrderScooterForm {//поиск поля на форме и заполнение полей
 
     private WebDriver driver;
 
@@ -15,7 +15,7 @@ public class OrderScooterForm {//поиск поля на форме и запо
     private String xpath_sstr;//путь для поля
     private By nextActionButton = By.className("Button_Middle__1CSJM");//кнопка Заказа нижняя
 
-    public OrderScooterForm(WebDriver driver){
+    public FirstPageOfOrderScooterForm(WebDriver driver){
         this.driver = driver;
     }
 

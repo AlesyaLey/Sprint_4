@@ -1,11 +1,8 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-public class OrderScooterForm1 {
+public class SecondPageOfOrderScooterForm {
     private WebDriver driver;
-    public OrderScooterForm1(WebDriver driver){
+    public SecondPageOfOrderScooterForm(WebDriver driver){
         this.driver = driver;
     }
     // Input "Далее"
@@ -25,7 +22,7 @@ public class OrderScooterForm1 {
     // Чекбокс "Серая безысходность"
     private By Gray = By.id("grey");
     // Input "Комментарий курьеру"
-    private By commentСourier = By.xpath(".//input[@placeholder='Комментарий для курьера']");
+    private By commentCourier = By.xpath(".//input[@placeholder='Комментарий для курьера']");
     // Кнопка внизу "Заказать"
     private By buttonOrderMiddle = By.xpath("/html/body/div/div/div[2]/div[3]/button[2]");
     // Кнопка "Да" в подтверждении заказа
@@ -66,7 +63,7 @@ public class OrderScooterForm1 {
     public boolean displayingButtonViewOrder () {
         return driver.findElement(buttonViewOrder).isDisplayed();
     }
-    public  void writeCommentСourier(String text) {
-        driver.findElement(commentСourier).sendKeys(text);
+    public void writeCommentCourier(String text) {
+        driver.findElement(commentCourier).sendKeys(text);
     }
 }
