@@ -47,7 +47,7 @@ public class TrueOrderScooter{
         order1.clickArroy();
         order1.clickTwoDay();
         order1.clickBlack();
-        order1.writeCommentСourier("Комментарий");
+        order1.writeCommentCourier("Комментарий");
         order1.clickButtonOrderMiddle(); // Заказать
         order1.clickYesButtonConfirmOrder(); // Кнопка ДА
         actual = order1.displayingButtonViewOrder();
@@ -88,7 +88,7 @@ public class TrueOrderScooter{
         order1.clickArroy();
         order1.clickOneDay();
         order1.clickGray();
-        order1.writeCommentСourier("Комментарий");
+        order1.writeCommentCourier("Комментарий");
         order1.clickButtonOrderMiddle(); // Заказать
         order1.clickYesButtonConfirmOrder(); // Кнопка ДА
         actual = order1.displayingButtonViewOrder();

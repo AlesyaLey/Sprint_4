@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68864bd9-ac1f-42d6-8704-b4aa01b5e650" name="Changes" comment="deleted comment lines and change structure">
+    <list default="true" id="68864bd9-ac1f-42d6-8704-b4aa01b5e650" name="Changes" comment="shanged structure files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HeaderPageMesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoginPageMesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPageScooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FAQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooterForm1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooterForm1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScooterOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScooterOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TrueOrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrueOrderScooter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,12 +79,27 @@
     "last_opened_file_path": "/home/lesya/0/dev/Sprint_4"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ScooterOrder.SuccessOrder">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PraktikumTest.checkEmailInHeader">
     <configuration name="PraktikumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PraktikumTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PraktikumTest.checkEmailInHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PraktikumTest" />
+      <option name="METHOD_NAME" value="checkEmailInHeader" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +114,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scooter.checkFAQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Scooter" />
+      <option name="METHOD_NAME" value="checkFAQ" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrueOrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,33 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrueOrderScooter.TrueOrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrueOrderScooter" />
-      <option name="METHOD_NAME" value="TrueOrderScooter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrueOrderScooter.TrueOrderScooterWithDownButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrueOrderScooter" />
-      <option name="METHOD_NAME" value="TrueOrderScooterWithDownButton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PraktikumTest.checkEmailInHeader" />
+        <item itemvalue="JUnit.PraktikumTest" />
+        <item itemvalue="JUnit.Scooter.checkFAQ" />
         <item itemvalue="JUnit.ScooterOrder.SuccessOrder" />
         <item itemvalue="JUnit.TrueOrderScooter" />
-        <item itemvalue="JUnit.TrueOrderScooter.TrueOrderScooterWithDownButton" />
-        <item itemvalue="JUnit.TrueOrderScooter.TrueOrderScooter" />
-        <item itemvalue="JUnit.PraktikumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,17 +225,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="deleted comment lines and change structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted comment lines and change structure" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/OrderScooterForm1.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="shanged structure files" />
+    <option name="LAST_COMMIT_MESSAGE" value="shanged structure files" />
   </component>
 </project>

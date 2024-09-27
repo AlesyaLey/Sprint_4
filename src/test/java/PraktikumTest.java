@@ -15,55 +15,6 @@ import static org.junit.Assert.*;
 import java.time.Duration;
 
 
-// Класс страницы авторизации(просто проверка, что можно зайтит на страницу)
-class LoginPageMesto {
-
-    private WebDriver driver;
-    private By emailField = By.id("email");
-    private By passwordField = By.id("password");
-    private By signInButton = By.className("auth-form__button");
-
-    public LoginPageMesto(WebDriver driver){
-        this.driver = driver;
-    }
-
-    public void setUsername(String username) {
-        driver.findElement(emailField).sendKeys(username);
-    }
-    public void setPassword(String password) {
-        driver.findElement(passwordField).sendKeys(password);
-    }
-    public void clickSignInButton() {
-        driver.findElement(signInButton).click();
-    }
-    public void login(String username, String password){
-        setUsername(username);
-        setPassword(password);
-        clickSignInButton();
-    }
-}
-
-// Класс заголовка
-class HeaderPageMesto {
-
-    private WebDriver driver;
-    // создай локатор для элемента c email в заголовке страницы
-    private By headerUser = By.className("header__user");
-
-    public HeaderPageMesto(WebDriver driver){
-        this.driver = driver;
-    }
-    // метод ожидания загрузки страницы
-    public void waitForLoadHeader(){
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.className("header__user")));
-    }
-    // метод для получения текста элемента в заголовке
-   public String emailInHeader(){
-       return driver.findElement(headerUser).getText();
-   }
-}
-
 // Класс с автотестом
 public class PraktikumTest {
 
