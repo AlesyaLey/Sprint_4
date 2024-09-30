@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68864bd9-ac1f-42d6-8704-b4aa01b5e650" name="Changes" comment="shanged structure files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HeaderPageMesto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoginPageMesto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPageScooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FAQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrueOrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrueOrderScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPageScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPageScooter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PraktikumTest.checkEmailInHeader">
+  <component name="RunManager" selected="JUnit.ScooterOrder.SuccessOrder1">
     <configuration name="PraktikumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,11 +98,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScooterOrder.SuccessOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Scooter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScooterOrder.SuccessOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ScooterOrder" />
-      <option name="METHOD_NAME" value="SuccessOrder" />
+      <option name="METHOD_NAME" value="SuccessOrder1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,22 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrueOrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrueOrderScooter" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PraktikumTest.checkEmailInHeader" />
+        <item itemvalue="JUnit.ScooterOrder.SuccessOrder1" />
+        <item itemvalue="JUnit.Scooter" />
         <item itemvalue="JUnit.PraktikumTest" />
+        <item itemvalue="JUnit.PraktikumTest.checkEmailInHeader" />
         <item itemvalue="JUnit.Scooter.checkFAQ" />
-        <item itemvalue="JUnit.ScooterOrder.SuccessOrder" />
-        <item itemvalue="JUnit.TrueOrderScooter" />
       </list>
     </recent_temporary>
   </component>

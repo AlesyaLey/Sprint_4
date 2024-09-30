@@ -1,25 +1,16 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.edge.*;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.After;
 import org.junit.Test;
-import static org.hamcrest.CoreMatchers.is;
-import org.hamcrest.MatcherAssert;
 import static org.junit.Assert.*;
-import java.time.Duration;
+
 
 
 // Класс с автотестом
 public class PraktikumTest {
 
     private WebDriver driver;
-   // WebDriverManager.chromedriver().setup();
 
     @Test
     public void checkEmailInHeader() {

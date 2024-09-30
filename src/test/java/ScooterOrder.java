@@ -71,8 +71,6 @@ public class ScooterOrder {
    @Test
     public void SuccessOrder1(){
         WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        // options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
         driver = new ChromeDriver();
         //главная страница
         driver.get("https://qa-scooter.praktikum-services.ru/");
