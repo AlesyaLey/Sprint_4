@@ -28,7 +28,7 @@ public class SecondPageOfOrderScooterForm {
     // Кнопка "Да" в подтверждении заказа
     private By yesButtonConfirmButton = By.xpath(".//div[@class='Order_Buttons__1xGrp']/button[text() ='Да']");
     // Кнопка "Посмотреть статус"
-    protected By buttonViewOrder = By.xpath(".//div[@class='Order_NextButton__1_rCA']/button[text()='Посмотреть статус']");
+    protected By buttonViewOrder = By.xpath("/html/body/div/div/div[2]/div[5]/div[2]/button");
 
     public void clickButtonNext() {
         driver.findElement(nextList).click();
@@ -63,7 +63,6 @@ public class SecondPageOfOrderScooterForm {
     public boolean displayingButtonViewOrder () {
         return driver.findElement(buttonViewOrder).isDisplayed();
     }
-    public void writeCommentCourier(String text) {
-        driver.findElement(commentCourier).sendKeys(text);
+    public void writeCommentCourier(String text) {driver.findElement(commentCourier).sendKeys(text);
     }
 }

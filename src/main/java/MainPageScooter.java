@@ -10,8 +10,6 @@ public class MainPageScooter { //главная страница
          //кнопка заказа вписать сюда
          private WebDriver driver;
          private By homeHeader = By.className("Home_Header__iJKdX");//заголовок страницы
-        // private By ButtonOrderUp = By.className("Button_Button__ra12g");
-        // private By ButtonOderDown = By.className("Button_Middle__1CSJM");
 
          public MainPageScooter(WebDriver driver){
              this.driver = driver;

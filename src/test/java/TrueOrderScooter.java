@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,10 +19,10 @@ public class TrueOrderScooter{
 
     @Test
     public void TrueOrderScooterWithUpButton() {
-        //WebDriverManager.chromedriver().setup();
-        WebDriverManager.firefoxdriver().setup();
-        //driver = new ChromeDriver();
-        driver = new FirefoxDriver();
+        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.firefoxdriver().setup();
+        driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
         //главная страница
         driver.get("https://qa-scooter.praktikum-services.ru/");
         //Кнопка Заказать сверху
@@ -56,10 +57,10 @@ public class TrueOrderScooter{
 
     @Test
     public void TrueOrderScooterWithDownButton(){
-        //WebDriverManager.chromedriver().setup();
-        WebDriverManager.firefoxdriver().setup();
-        //driver = new ChromeDriver();
-        driver = new FirefoxDriver();
+        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.firefoxdriver().setup();
+        driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
         //главная страница
         driver.get("https://qa-scooter.praktikum-services.ru/");
         //спуститься вниз до кнопки Заказа
