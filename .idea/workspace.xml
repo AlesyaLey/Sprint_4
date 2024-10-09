@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68864bd9-ac1f-42d6-8704-b4aa01b5e650" name="Changes" comment="deleted comment lines and change structure">
+    <list default="true" id="68864bd9-ac1f-42d6-8704-b4aa01b5e650" name="Changes" comment="shanged structure files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPageScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPageScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondPageOfOrderScooterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondPageOfOrderScooterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrueOrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrueOrderScooter.java" afterDir="false" />    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlesyaLey&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AlesyaLey/Sprint_4.git&quot;,
+    &quot;accountId&quot;: &quot;31c34207-cbd5-4f09-87fb-804081687ce2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -34,72 +48,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PraktikumTest.checkEmailInHeader.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PraktikumTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Scooter.checkFAQ.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Scooter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScooterOrder.SuccessOrder.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScooterOrder.checkScooterOrder.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScooterOrder.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.param.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.param.shouldBeSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lesya/0/dev/Sprint_4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.PraktikumTest.checkEmailInHeader.executor": "Run",
+    "JUnit.PraktikumTest.executor": "Run",
+    "JUnit.Scooter.checkFAQ.executor": "Run",
+    "JUnit.Scooter.executor": "Run",
+    "JUnit.ScooterOrder (1).executor": "Run",
+    "JUnit.ScooterOrder.SuccessOrder.executor": "Run",
+    "JUnit.ScooterOrder.SuccessOrder1.executor": "Run",
+    "JUnit.ScooterOrder.checkScooterOrder.executor": "Run",
+    "JUnit.ScooterOrder.executor": "Run",
+    "JUnit.TrueOrderScooter.TrueOrderScooter.executor": "Run",
+    "JUnit.TrueOrderScooter.TrueOrderScooterWithDownButton.executor": "Run",
+    "JUnit.TrueOrderScooter.TrueOrderScooterWithUpButton.executor": "Run",
+    "JUnit.TrueOrderScooter.executor": "Run",
+    "JUnit.param.executor": "Run",
+    "JUnit.param.shouldBeSum.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "#3 on develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/lesya/0/dev/Sprint_4"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Scooter">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TrueOrderScooter.TrueOrderScooterWithDownButton">
     <configuration name="Scooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Scooter" />
-      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScooterOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wd" />
+    <configuration name="ScooterOrder.SuccessOrder1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ScooterOrder" />
+      <option name="METHOD_NAME" value="SuccessOrder1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrueOrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrueOrderScooter" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScooterOrder.SuccessOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wd" />
+    <configuration name="TrueOrderScooter.TrueOrderScooterWithDownButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScooterOrder" />
-      <option name="METHOD_NAME" value="SuccessOrder" />
+      <option name="MAIN_CLASS_NAME" value="TrueOrderScooter" />
+      <option name="METHOD_NAME" value="TrueOrderScooterWithDownButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScooterOrder.checkScooterOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wd" />
+    <configuration name="TrueOrderScooter.TrueOrderScooterWithUpButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScooterOrder" />
-      <option name="METHOD_NAME" value="checkScooterOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scooter.checkFAQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Scooter" />
-      <option name="METHOD_NAME" value="checkFAQ" />
+      <option name="MAIN_CLASS_NAME" value="TrueOrderScooter" />
+      <option name="METHOD_NAME" value="TrueOrderScooterWithUpButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrueOrderScooter.TrueOrderScooterWithDownButton" />
+        <item itemvalue="JUnit.TrueOrderScooter.TrueOrderScooterWithUpButton" />
+        <item itemvalue="JUnit.TrueOrderScooter" />
+        <item itemvalue="JUnit.ScooterOrder.SuccessOrder1" />
         <item itemvalue="JUnit.Scooter" />
-        <item itemvalue="JUnit.ScooterOrder" />
-        <item itemvalue="JUnit.ScooterOrder.SuccessOrder" />
-        <item itemvalue="JUnit.ScooterOrder.checkScooterOrder" />
-        <item itemvalue="JUnit.Scooter.checkFAQ" />
       </list>
     </recent_temporary>
   </component>
@@ -132,10 +156,41 @@
       <option name="project" value="LOCAL" />
       <updated>1723053822518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted comment lines and change structure">
+      <option name="closed" value="true" />
+      <created>1723054163270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723054163270</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted comment lines and change structure">
+      <option name="closed" value="true" />
+      <created>1723815615561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723815615561</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -143,7 +198,18 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -155,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="deleted comment lines and change structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted comment lines and change structure" />
+    <MESSAGE value="shanged structure files" />
+    <option name="LAST_COMMIT_MESSAGE" value="shanged structure files" />
   </component>
 </project>

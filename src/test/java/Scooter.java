@@ -1,5 +1,3 @@
-import java.time.Duration;
-
 import org.junit.After;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
@@ -9,9 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @RunWith(Parameterized.class)
@@ -21,7 +16,7 @@ public class Scooter {
     private int numberRow;//ноемр строки
     private String expected;//ожидаемый результат
 
-    public Scooter(int numberRow, String expected){
+   public Scooter(int numberRow, String expected){
         this.numberRow = numberRow;
         this.expected = expected;
     }
@@ -68,47 +63,4 @@ public class Scooter {
     }
 }
 
-     class MainPageScooter { //главная страница
-         //проверяем, что страница загружена
-         //кнопка заказа вписать сюда
-         private WebDriver driver;
-         private By homeHeader = By.className("Home_Header__iJKdX");//заголовок страницы
-         private By ButtonOrderUp = By.className("Button_Button__ra12g");
-         private By ButtonOderDown = By.className("Button_Middle__1CSJM");
 
-         public MainPageScooter(WebDriver driver){
-             this.driver = driver;
-         }
-         // метод ожидания загрузки страницы, проверяем, что тсраница загружена
-         public void waitForLoadHeader(){
-             new WebDriverWait(driver, Duration.ofSeconds(15))
-                     .until(ExpectedConditions.visibilityOfElementLocated(homeHeader));
-         }
-         // метод для получения текста элемента в заголовке
-         public String titleInHeader(){
-             return driver.findElement(homeHeader).getText();
-         }
-
-
-    }
-
-
-    class FAQ{ //класс по проверке ответов
-        private WebDriver driver;
-
-        public FAQ(WebDriver driver){this.driver = driver;}
-
-        public void clickOpenListButton(int numberRow) {
-
-            By listQuestions = By.xpath(".//div[@id='accordion__heading-"+numberRow+"']");
-            driver.findElement(listQuestions).click();
-        }
-
-            public String checkListAnswer(int numberRow){
-
-               By listOfAnswer = By.xpath(".//div[@id='accordion__panel-" + numberRow + "']");
-               String text = driver.findElement(listOfAnswer).getText();
-                return text;
-            }
-
-    }
